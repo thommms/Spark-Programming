@@ -50,6 +50,7 @@ class listener(StreamListener):
 
         def on_error(self, status):
                 print (status)
+                
 
 print("\n===================================== Streaming will start now=============================================================")
 local_start_time = time.ctime(start_time) #converted the time function to a local readable time
